@@ -1,0 +1,1 @@
+wt -w 0 new-tab --title "remind" python remind_runner.py --config reminders.toml 

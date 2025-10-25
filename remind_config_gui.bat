@@ -1,0 +1,1 @@
+wt -w 0 new-tab --title "remind_confih" python remind_config_gui.py --config reminders.toml 

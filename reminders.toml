@@ -1,0 +1,28 @@
+
+timezone = "Asia/Ho_Chi_Minh"
+# Optional: set a custom sound file path, e.g. "C:/Windows/Media/notify.wav" or "/System/Library/Sounds/Glass.aiff"
+sound_file = ""
+
+[[task]]
+time = "07:30"
+type = "both"
+message = "Chạy file FSP"
+# 👉 Replace the command below with your actual path to the FSP script/app
+command = "python E:/path/to/fsp.py"
+days = ["Mon","Tue","Wed","Thu","Fri"]
+enabled = true
+sound = true
+
+[[task]]
+time = "15:00"
+type = "notify"
+message = "Ghi báo cáo hằng ngày"
+enabled = true
+sound = true
+
+[[task]]
+time = "13:58"
+type = "notify"
+message = "Ghi báo cáo hằng ngày"
+enabled = true
+sound = true
